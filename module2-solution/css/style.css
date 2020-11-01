@@ -4,6 +4,7 @@
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
     margin: 0;
 }
 
@@ -14,6 +15,7 @@ header {
 
 header > h1 {
     margin: 0;
+    font-size: 1.75em;
 }
 
 section {
@@ -33,6 +35,7 @@ section > h2 {
     padding: 0.2em 1em;
     border: 5px solid black;
     background-color: pink;
+    font-size: 1.25em;
 }
 
 section + section > h2 {
