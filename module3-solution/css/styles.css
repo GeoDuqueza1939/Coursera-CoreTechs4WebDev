@@ -1,0 +1,85 @@
+#menu-nav {
+    background-color: rgb(228, 52, 52);
+}
+
+.navbar-default .navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+#menu-toggle-button {
+    border-color: white;
+}
+
+#menu-toggle-button>.icon-bar, #menu-toggle-button:hover>.icon-bar {
+    background-color: #888;
+}
+
+#menu-toggle-button.collapsed>.icon-bar {
+    background-color: white;
+}
+
+.navbar-default #menu-dropdown .navbar-nav>li+li>a {
+    border-top: 2px groove;
+}
+
+.navbar-default #menu-dropdown .navbar-nav>li>a {
+color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+#menu>.row {
+    padding: 0 1em;
+}
+
+.menu-item {
+    padding: 0 1.5em;
+    background-color: rgb(183, 245, 59);
+    min-height: 1000px;
+}
+
+.menu-item>.menu-item-name {
+    margin: 0.5em 0 0.67em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #menu-dropdown {
+        background-color: rgb(145, 4, 58);
+        border: 1.5px outset #888;
+    }
+
+    #menu-dropdown>.navbar-nav {
+        margin: 0 -15px;
+        padding: 0 5px;
+    }
+
+    #menu>.row {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+  
