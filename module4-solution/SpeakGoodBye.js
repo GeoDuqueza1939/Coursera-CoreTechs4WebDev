@@ -24,3 +24,5 @@ byeSpeaker.speak = function (name) {
 // 'byeSpeaker' on the global scope as well.
 window.byeSpeaker = byeSpeaker;
 })(window);
+
+// Solution by Geovani Duqueza

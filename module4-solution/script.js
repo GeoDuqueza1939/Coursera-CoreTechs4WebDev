@@ -64,3 +64,5 @@ for (var name in names) {
   }
 }
 })();
+
+// Solution by Geovani Duqueza
